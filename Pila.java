@@ -6,7 +6,7 @@ public class Pila implements iPila {
     private String[] stack;
     
     public Pila(){
-        stack = new String[] {"null","null","null","null","null","null","null","null","null","null"};
+        stack = new String[] {"null","null","null"};
     }
 //------------------------------------------------------------------------------
 
@@ -21,12 +21,12 @@ public class Pila implements iPila {
 
     @Override
     public String Pop() {
-        int i=9;
+        int i=2;
         while(stack[i].equals("null")){
             i=i-1;
         }
         String object = stack[i];
-        stack[1] = "null";
+        stack[i] = "null";
         return object;
     }
 
