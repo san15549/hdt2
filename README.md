@@ -7,12 +7,11 @@ Numeros: 1-9 (Solo lee un caracter)
 
 A ENTREGAR:
 ----------
-UML (X)
-CLASES (X)
-LINK DE GITHUB (X)
-PRUEBAS DE JUNIT (X)
-TIEMPO DE EJECUCION "PROFILER" (X)
-----------
+Uml (X)
+Clases (X)
+Link de Github (X)
+Pruebas de Junit (X)
+Tiempo de Ejecucion "PROFILER" (X)
 
 Provecho,
 C.S
